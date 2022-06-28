@@ -1,3 +1,5 @@
+package ru.netology.javaqamvn11.services;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +15,6 @@ public class MoviesManagerTest {
         String[] expected = {"F1"};
 
         Assertions.assertArrayEquals(actual, expected);
-
     }
 
     @Test
@@ -29,7 +30,6 @@ public class MoviesManagerTest {
         String[] expected = {"F1", "F2", "F3", "F4"};
 
         Assertions.assertArrayEquals(actual, expected);
-
     }
 
     @Test

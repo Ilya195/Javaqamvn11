@@ -1,3 +1,4 @@
+package ru.netology.javaqamvn11.services;
 public class MoviesManager {
     protected String[] movies = new String[0];
     protected int limit;
